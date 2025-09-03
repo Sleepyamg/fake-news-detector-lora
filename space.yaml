@@ -1,0 +1,5 @@
+# space.yaml
+sdk: docker # we use docker because FastAPI is not Gradio/Streamlit
+app_file: app/main.py # your entrypoint
+docker:
+  port: 7860 # Hugging Face expects the app on port 7860
